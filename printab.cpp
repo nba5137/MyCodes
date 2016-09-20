@@ -33,7 +33,28 @@
  * 		}
  * }
  * 
- * ------------------------------------------- Java 8(with lambda) By: RednaxelaFX ------------------------------------
+ * ------------------------------------------- Java 8(without lambda) By: RednaxelaFX ------------------------------------
+ * 
+ * public class xx
+ * {
+ * 		public static void main(String[]args)
+ * 		{
+ * 			if ( foo() )
+ * 			{
+ * 				System.out.print("a");
+ * 			}
+ * 			else
+ * 			{
+ * 				System.out.print("b");
+ * 			}
+ * 		}
+ * 
+ * 		public static boolean foo()
+ * 		{
+ * 			System.out.print("a");
+ * 			return false;
+ * 		}
+ * }
  *  
  */
 
