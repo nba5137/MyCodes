@@ -9,7 +9,7 @@ using namespace std;
 
 void ave()
 {
-	int x, y, n, nw;
+	float x, y, n, nw;
 	cout << "Input the number of numbers you want to input:";
 	cin >> n;
 	if (n < 1)
@@ -33,7 +33,7 @@ void ave()
 			n--;
 		}
 	}
-	int avg;
+	float avg;
 	avg = y / nw;
 	cout << "Your shit is: " << avg << endl;
 }
