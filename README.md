@@ -1,2 +1,2 @@
-# myFunnyCodes
-When I am bored, I code my sht :D
+# myCodes
+I like to code my sht :D
