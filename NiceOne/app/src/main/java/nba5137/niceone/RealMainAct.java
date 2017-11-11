@@ -92,6 +92,7 @@ public class RealMainAct extends AppCompatActivity {
             pv.getSettings().setUseWideViewPort(true);
             pv.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
             pv.setBackgroundColor(Color.BLACK);
+            pv.getSettings().getBuiltInZoomControls();
 
             pv.setWebViewClient(new WebViewClient());
             pv.setWebChromeClient(new WebChromeClient() {
@@ -147,7 +148,10 @@ public class RealMainAct extends AppCompatActivity {
     }
 
     public void onBackPressed(){
-        //nothing lol
+        if(pv.canGoBack()){
+            pv.goBack();
+        }
+        // else nothing lol
     }
 
 
