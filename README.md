@@ -1,5 +1,5 @@
 # myCodes
-Coding my sht. 
+Some programs coded in C++. 
 
 ## Current-list
 1. **average.cpp**	- To calculate an average with numbers given by the user.
