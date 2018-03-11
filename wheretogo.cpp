@@ -41,7 +41,7 @@ int main()
 			cout << "Calculating..." << endl;
 			srand((int)time(0));
 			a = rand()%(total_num);
-			cout << "Your random result is: " list[a] << endl;
+			cout << "Your random result is: " << list[a] << endl;
 			cout << "Input a letter 'g' to go or a letter 'q' to quit" << endl;
 		}
 		else if ( g == "q")
