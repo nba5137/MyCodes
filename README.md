@@ -7,3 +7,4 @@ Some programs coded in C++.
 3. **printab.cpp**	- Solutions for a interview question from Baidu. Part credit: RednaxelaFX
 4. **wheretogo.cpp**  - A code for randomly chosing an item from a list of items given by the user.
 5. **clean.c**	- Clean by killing process (name sensitive).
+6. **Question_division.c** - A division algorithm(dividend with digits <= 1000; input: dividend & divisor; Output: Quotient & Remainder). 
